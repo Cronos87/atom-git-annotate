@@ -1,0 +1,14 @@
+{
+  "name": "git-annotate",
+  "main": "./lib/git-annotate",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["git-annotate:toggle"],
+  "repository": "https://github.com/atom/git-annotate",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

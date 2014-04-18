@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable git-annotate': 'git-annotate:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'git-annotate'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'git-annotate:toggle' }
+      ]
+    ]
+  }
+]
